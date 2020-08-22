@@ -1,0 +1,841 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="36064540_1686999878050712_6520389091295494144_n3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36064540_1686999878050712_6520389091295494144_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="metal_texture___34_by_agf81-d41dqkw (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\metal_texture___34_by_agf81-d41dqkw (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36316742_799614620426994_7403890346851041280_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36316742_799614620426994_7403890346851041280_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="35416393_1687000138050686_2721252022744514560_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\35416393_1687000138050686_2721252022744514560_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="metal_texture___34_by_agf81-d41dqkw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\metal_texture___34_by_agf81-d41dqkw.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36025517_1687000178050682_3626356482762604544_n3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36025517_1687000178050682_3626356482762604544_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="35416393_1687000138050686_2721252022744514560_n1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\35416393_1687000138050686_2721252022744514560_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8165e75c97c6bfe3f969bc7a57f791252" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\8165e75c97c6bfe3f969bc7a57f79125.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36189131_796590597396063_4327923658098999296_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36189131_796590597396063_4327923658098999296_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="35026332_1686999778050722_8664059886373437440_n1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\35026332_1686999778050722_8664059886373437440_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="metal_texture___34_by_agf81-d41dqkw4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\metal_texture___34_by_agf81-d41dqkw.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="35121256_1687000018050698_6574056679049003008_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\35121256_1687000018050698_6574056679049003008_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36087944_1687000051384028_3662929074180849664_n1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36087944_1687000051384028_3662929074180849664_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="modern-black-metal-texture-background-vector-18373924" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\modern-black-metal-texture-background-vector-18373924.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hqdefault1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\hqdefault.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36064721_794605027594620_7067306876693643264_n6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36064721_794605027594620_7067306876693643264_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="white_metal3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\white_metal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="35121256_1687000018050698_6574056679049003008_n4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\35121256_1687000018050698_6574056679049003008_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36087718_1687797867970913_132882345358262272_n1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36087718_1687797867970913_132882345358262272_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36064484_1686999758050724_8339389160846524416_n4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36064484_1686999758050724_8339389160846524416_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="white-metal-250x2502" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\white-metal-250x250.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (5)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\images (5).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36200053_1686999924717374_513910991793160192_n5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36200053_1686999924717374_513910991793160192_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="metal_texture___34_by_agf81-d41dqkw (1)5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\metal_texture___34_by_agf81-d41dqkw (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36380495_799615197093603_4543805323034492928_n (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36380495_799615197093603_4543805323034492928_n (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36025517_1687000178050682_3626356482762604544_n2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36025517_1687000178050682_3626356482762604544_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36297890_796590640729392_9087424485006508032_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36297890_796590640729392_9087424485006508032_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36189138_1686999668050733_5975785996917145600_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36189138_1686999668050733_5975785996917145600_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36087944_1687000051384028_3662929074180849664_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36087944_1687000051384028_3662929074180849664_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36177345_796472960741160_1364593633440825344_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36177345_796472960741160_1364593633440825344_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="metal_texture___34_by_agf81-d41dqkw (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\metal_texture___34_by_agf81-d41dqkw (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="white-metal-250x2501" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\white-metal-250x250.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36302987_796590614062728_6967564284242952192_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36302987_796590614062728_6967564284242952192_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8165e75c97c6bfe3f969bc7a57f791253" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\8165e75c97c6bfe3f969bc7a57f79125.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (4)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\images (4).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36088019_1686999978050702_889914981758271488_n1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36088019_1686999978050702_889914981758271488_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="white_metal5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\white_metal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36229586_1686879298062770_4633816662053748736_n (1)4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36229586_1686879298062770_4633816662053748736_n (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lam-the-atm-anz-nhu-the-nao-mat-bao-lau-0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\lam-the-atm-anz-nhu-the-nao-mat-bao-lau-0.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36269282_796493310739125_7390231685129830400_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36269282_796493310739125_7390231685129830400_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36064484_1686999758050724_8339389160846524416_n2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36064484_1686999758050724_8339389160846524416_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36064540_1686999878050712_6520389091295494144_n2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36064540_1686999878050712_6520389091295494144_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36003226_1686999834717383_2784874146394275840_n4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36003226_1686999834717383_2784874146394275840_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (2)2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\images (2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36229586_1686879298062770_4633816662053748736_n (1)2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36229586_1686879298062770_4633816662053748736_n (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36177047_1687752631308770_5150547458790522880_n1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36177047_1687752631308770_5150547458790522880_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36063425_1686999694717397_526736683262017536_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36063425_1686999694717397_526736683262017536_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8165e75c97c6bfe3f969bc7a57f791251" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\8165e75c97c6bfe3f969bc7a57f79125.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (1)4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\images (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\download.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36087944_1687000051384028_3662929074180849664_n4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36087944_1687000051384028_3662929074180849664_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rust_scratches_0012_01_preview1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\rust_scratches_0012_01_preview.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36229586_1686879298062770_4633816662053748736_n (1)6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36229586_1686879298062770_4633816662053748736_n (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36266046_796487154073074_1475542791999193088_n1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36266046_796487154073074_1475542791999193088_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36025517_1687000178050682_3626356482762604544_n1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36025517_1687000178050682_3626356482762604544_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36027521_1687000081384025_5784255855952134144_n4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36027521_1687000081384025_5784255855952134144_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36064540_1686999878050712_6520389091295494144_n4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36064540_1686999878050712_6520389091295494144_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="35416393_1687000138050686_2721252022744514560_n2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\35416393_1687000138050686_2721252022744514560_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rust_scratches_0012_01_preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\rust_scratches_0012_01_preview.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36261019_796743010714155_136945410190082048_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36261019_796743010714155_136945410190082048_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (3)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\images (3).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="35121256_1687000018050698_6574056679049003008_n3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\35121256_1687000018050698_6574056679049003008_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36003219_1686999741384059_5862881885209755648_n3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36003219_1686999741384059_5862881885209755648_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="35026332_1686999778050722_8664059886373437440_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\35026332_1686999778050722_8664059886373437440_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\download.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rust_scratches_0012_01_preview3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\rust_scratches_0012_01_preview.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36266046_796487154073074_1475542791999193088_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36266046_796487154073074_1475542791999193088_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36087351_1687763004641066_4554229801367371776_n1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36087351_1687763004641066_4554229801367371776_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\images (2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="white-metal-250x250" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\white-metal-250x250.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="35164822_1687000111384022_2470987151739715584_n4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\35164822_1687000111384022_2470987151739715584_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="misc_texture__4_by_agf81-d33ww3c3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\misc_texture__4_by_agf81-d33ww3c.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="white_metal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\white_metal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (2)3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\images (2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36229586_1686879298062770_4633816662053748736_n (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36229586_1686879298062770_4633816662053748736_n (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36003219_1686999741384059_5862881885209755648_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36003219_1686999741384059_5862881885209755648_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36064484_1686999758050724_8339389160846524416_n3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36064484_1686999758050724_8339389160846524416_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="metal_texture___34_by_agf81-d41dqkw5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\metal_texture___34_by_agf81-d41dqkw.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HDHD PIcture by izaan ahmed exclusive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\HDHD PIcture by izaan ahmed exclusive.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36063425_1686999694717397_526736683262017536_n3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36063425_1686999694717397_526736683262017536_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="metal_texture___34_by_agf81-d41dqkw2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\metal_texture___34_by_agf81-d41dqkw.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36229586_1686879298062770_4633816662053748736_n (1)5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36229586_1686879298062770_4633816662053748736_n (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="metal_texture___34_by_agf81-d41dqkw (1)4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\metal_texture___34_by_agf81-d41dqkw (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blurred-background-p1-2_blue2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\blurred-background-p1-2_blue.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="misc_texture__4_by_agf81-d33ww3c1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\misc_texture__4_by_agf81-d33ww3c.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (2)5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\images (2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36261480_796590617396061_8798417149270949888_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36261480_796590617396061_8798417149270949888_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36229586_1686879298062770_4633816662053748736_n (1)3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36229586_1686879298062770_4633816662053748736_n (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="metal_texture___34_by_agf81-d41dqkw (1)3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\metal_texture___34_by_agf81-d41dqkw (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="35164822_1687000111384022_2470987151739715584_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\35164822_1687000111384022_2470987151739715584_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36027521_1687000081384025_5784255855952134144_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36027521_1687000081384025_5784255855952134144_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="white-metal-250x2503" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\white-metal-250x250.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="misc_texture__4_by_agf81-d33ww3c5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\misc_texture__4_by_agf81-d33ww3c.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36064721_794605027594620_7067306876693643264_n4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36064721_794605027594620_7067306876693643264_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36025517_1687000178050682_3626356482762604544_n4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36025517_1687000178050682_3626356482762604544_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36347766_799563267098796_6289282806677766144_n (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36347766_799563267098796_6289282806677766144_n (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36137569_1687752641308769_1577244331918491648_n2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36137569_1687752641308769_1577244331918491648_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36063425_1686999694717397_526736683262017536_n1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36063425_1686999694717397_526736683262017536_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rust_scratches_0012_01_preview5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\rust_scratches_0012_01_preview.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36137569_1687752641308769_1577244331918491648_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36137569_1687752641308769_1577244331918491648_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36189138_1686999668050733_5975785996917145600_n2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36189138_1686999668050733_5975785996917145600_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="free-metal-texture-vector" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\free-metal-texture-vector.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36025517_1687000178050682_3626356482762604544_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36025517_1687000178050682_3626356482762604544_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36189138_1686999668050733_5975785996917145600_n1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36189138_1686999668050733_5975785996917145600_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36088019_1686999978050702_889914981758271488_n3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36088019_1686999978050702_889914981758271488_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36223470_796493657405757_1145820051060817920_n1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36223470_796493657405757_1145820051060817920_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36027521_1687000081384025_5784255855952134144_n2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36027521_1687000081384025_5784255855952134144_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\download.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\images (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rust_scratches_0012_01_preview2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\rust_scratches_0012_01_preview.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="35121256_1687000018050698_6574056679049003008_n2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\35121256_1687000018050698_6574056679049003008_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36033390_796590720729384_3551712279030398976_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36033390_796590720729384_3551712279030398976_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\images (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36200053_1686999924717374_513910991793160192_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36200053_1686999924717374_513910991793160192_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="35164822_1687000111384022_2470987151739715584_n3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\35164822_1687000111384022_2470987151739715584_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="35416393_1687000138050686_2721252022744514560_n4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\35416393_1687000138050686_2721252022744514560_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36087718_1687797867970913_132882345358262272_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36087718_1687797867970913_132882345358262272_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36177072_796590674062722_2967844778315612160_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36177072_796590674062722_2967844778315612160_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36063425_1686999694717397_526736683262017536_n4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36063425_1686999694717397_526736683262017536_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="white-metal-250x2504" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\white-metal-250x250.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8165e75c97c6bfe3f969bc7a57f791254" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\8165e75c97c6bfe3f969bc7a57f79125.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36189138_1686999668050733_5975785996917145600_n3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36189138_1686999668050733_5975785996917145600_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="misc_texture__4_by_agf81-d33ww3c6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\misc_texture__4_by_agf81-d33ww3c.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36177047_1687752631308770_5150547458790522880_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36177047_1687752631308770_5150547458790522880_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36088019_1686999978050702_889914981758271488_n4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36088019_1686999978050702_889914981758271488_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36177047_1687752631308770_5150547458790522880_n2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36177047_1687752631308770_5150547458790522880_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="free-metal-texture-vector5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\free-metal-texture-vector.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8165e75c97c6bfe3f969bc7a57f791255" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\8165e75c97c6bfe3f969bc7a57f79125.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="35164822_1687000111384022_2470987151739715584_n1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\35164822_1687000111384022_2470987151739715584_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36229586_1686879298062770_4633816662053748736_n (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36229586_1686879298062770_4633816662053748736_n (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="free-metal-texture-vector3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\free-metal-texture-vector.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (2)4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\images (2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="free-metal-texture-vector1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\free-metal-texture-vector.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36223470_796493657405757_1145820051060817920_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36223470_796493657405757_1145820051060817920_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36269282_796493310739125_7390231685129830400_n1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36269282_796493310739125_7390231685129830400_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36177047_1687752631308770_5150547458790522880_n3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36177047_1687752631308770_5150547458790522880_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36063425_1686999694717397_526736683262017536_n2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36063425_1686999694717397_526736683262017536_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="html-page-background-color-web-colors-inside-at-menmadeho-me1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\html-page-background-color-web-colors-inside-at-menmadeho-me.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36223248_796590684062721_2969299625472688128_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36223248_796590684062721_2969299625472688128_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36189237_796477520740704_8987403273732358144_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36189237_796477520740704_8987403273732358144_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36064721_794605027594620_7067306876693643264_n5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36064721_794605027594620_7067306876693643264_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36137569_1687752641308769_1577244331918491648_n3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36137569_1687752641308769_1577244331918491648_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\images (4).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rust_scratches_0012_01_preview4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\rust_scratches_0012_01_preview.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36064721_794605027594620_7067306876693643264_n3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36064721_794605027594620_7067306876693643264_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smart-cash-deposit-ppt-1-638" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\smart-cash-deposit-ppt-1-638.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="abstract-dark-animated-background-grey-flowing-wavy-stripes-on-black-video-graphic-design-hd-1920x1080_em7h70z8g__S0007" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\abstract-dark-animated-background-grey-flowing-wavy-stripes-on-black-video-graphic-design-hd-1920x1080_em7h70z8g__S0007.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36087944_1687000051384028_3662929074180849664_n3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36087944_1687000051384028_3662929074180849664_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36088019_1686999978050702_889914981758271488_n2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36088019_1686999978050702_889914981758271488_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="metal_texture___34_by_agf81-d41dqkw (1)2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\metal_texture___34_by_agf81-d41dqkw (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36200053_1686999924717374_513910991793160192_n3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36200053_1686999924717374_513910991793160192_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36064484_1686999758050724_8339389160846524416_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36064484_1686999758050724_8339389160846524416_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36064540_1686999878050712_6520389091295494144_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36064540_1686999878050712_6520389091295494144_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="35121256_1687000018050698_6574056679049003008_n1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\35121256_1687000018050698_6574056679049003008_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black-and-red-metal-background-vector-17310300" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\black-and-red-metal-background-vector-17310300.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36137569_1687752641308769_1577244331918491648_n1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36137569_1687752641308769_1577244331918491648_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black-and-red-metal-background-vector-17310300 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\black-and-red-metal-background-vector-17310300 (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (1)2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\images (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36087351_1687763004641066_4554229801367371776_n3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36087351_1687763004641066_4554229801367371776_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hqdefault" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\hqdefault.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8165e75c97c6bfe3f969bc7a57f79125" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\8165e75c97c6bfe3f969bc7a57f79125.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="500_F_110088665_cB8VEoZtogVDH4NWdVJg6VEEiQ85poaH" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\500_F_110088665_cB8VEoZtogVDH4NWdVJg6VEEiQ85poaH.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (7)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\images (7).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36003219_1686999741384059_5862881885209755648_n2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36003219_1686999741384059_5862881885209755648_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="white_metal1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\white_metal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36003226_1686999834717383_2784874146394275840_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36003226_1686999834717383_2784874146394275840_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36200053_1686999924717374_513910991793160192_n1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36200053_1686999924717374_513910991793160192_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="white-metal-250x2505" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\white-metal-250x250.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="misc_texture__4_by_agf81-d33ww3c" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\misc_texture__4_by_agf81-d33ww3c.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36003219_1686999741384059_5862881885209755648_n4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36003219_1686999741384059_5862881885209755648_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36027521_1687000081384025_5784255855952134144_n1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36027521_1687000081384025_5784255855952134144_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36088019_1686999978050702_889914981758271488_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36088019_1686999978050702_889914981758271488_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7757de315673000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\7757de315673000.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36283426_796590714062718_3838100230176243712_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36283426_796590714062718_3838100230176243712_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36231883_796471860741270_8231957211136393216_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36231883_796471860741270_8231957211136393216_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36003226_1686999834717383_2784874146394275840_n2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36003226_1686999834717383_2784874146394275840_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36356317_799580610430395_1194819803932524544_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36356317_799580610430395_1194819803932524544_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="html-page-background-color-web-colors-inside-at-menmadeho-me2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\html-page-background-color-web-colors-inside-at-menmadeho-me.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="misc_texture__4_by_agf81-d33ww3c4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\misc_texture__4_by_agf81-d33ww3c.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\images (3).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36318538_799582313763558_1961056778586161152_n1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36318538_799582313763558_1961056778586161152_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="html-page-background-color-web-colors-inside-at-menmadeho-me" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\html-page-background-color-web-colors-inside-at-menmadeho-me.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36302999_799614627093660_2684533904949379072_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36302999_799614627093660_2684533904949379072_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36177379_796590667396056_247719901018456064_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36177379_796590667396056_247719901018456064_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36087944_1687000051384028_3662929074180849664_n2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36087944_1687000051384028_3662929074180849664_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="abstract-dark-animated-background-grey-flowing-wavy-stripes-on-black-video-graphic-design-hd-1920x1080_em7h70z8g__S00071" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\abstract-dark-animated-background-grey-flowing-wavy-stripes-on-black-video-graphic-design-hd-1920x1080_em7h70z8g__S0007.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36003219_1686999741384059_5862881885209755648_n1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36003219_1686999741384059_5862881885209755648_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36087351_1687763004641066_4554229801367371776_n2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36087351_1687763004641066_4554229801367371776_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="free-metal-texture-vector2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\free-metal-texture-vector.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="free-metal-texture-vector4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\free-metal-texture-vector.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="metal_texture___34_by_agf81-d41dqkw3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\metal_texture___34_by_agf81-d41dqkw.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36189138_1686999668050733_5975785996917145600_n5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36189138_1686999668050733_5975785996917145600_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36087351_1687763004641066_4554229801367371776_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36087351_1687763004641066_4554229801367371776_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="35026332_1686999778050722_8664059886373437440_n2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\35026332_1686999778050722_8664059886373437440_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="35164822_1687000111384022_2470987151739715584_n2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\35164822_1687000111384022_2470987151739715584_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36064721_794605027594620_7067306876693643264_n2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36064721_794605027594620_7067306876693643264_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36064540_1686999878050712_6520389091295494144_n1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36064540_1686999878050712_6520389091295494144_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="misc_texture__4_by_agf81-d33ww3c2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\misc_texture__4_by_agf81-d33ww3c.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36027521_1687000081384025_5784255855952134144_n3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36027521_1687000081384025_5784255855952134144_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blurred-background-p1-2_blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\blurred-background-p1-2_blue.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36189138_1686999668050733_5975785996917145600_n4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36189138_1686999668050733_5975785996917145600_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36420377_799706707084452_1888839459009462272_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36420377_799706707084452_1888839459009462272_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36088045_796590690729387_3327499395447914496_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36088045_796590690729387_3327499395447914496_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36199834_796590600729396_7652701753678233600_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36199834_796590600729396_7652701753678233600_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36003226_1686999834717383_2784874146394275840_n1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36003226_1686999834717383_2784874146394275840_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36064721_794605027594620_7067306876693643264_n1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36064721_794605027594620_7067306876693643264_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="500_F_110088665_cB8VEoZtogVDH4NWdVJg6VEEiQ85poaH1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\500_F_110088665_cB8VEoZtogVDH4NWdVJg6VEEiQ85poaH.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="35416393_1687000138050686_2721252022744514560_n3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\35416393_1687000138050686_2721252022744514560_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (1)3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\images (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blurred-background-p1-2_blue1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\blurred-background-p1-2_blue.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36200053_1686999924717374_513910991793160192_n4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36200053_1686999924717374_513910991793160192_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36318538_799582313763558_1961056778586161152_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36318538_799582313763558_1961056778586161152_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="white_metal2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\white_metal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (6)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\images (6).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36200053_1686999924717374_513910991793160192_n2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36200053_1686999924717374_513910991793160192_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="35026332_1686999778050722_8664059886373437440_n4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\35026332_1686999778050722_8664059886373437440_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36297788_796590647396058_2062888627813220352_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36297788_796590647396058_2062888627813220352_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blue-smoke-abstract-background-color-ink-paint-drop-water-splash-wave-cloud-905019891" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\blue-smoke-abstract-background-color-ink-paint-drop-water-splash-wave-cloud-90501989.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (2)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\images (2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\download.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="free-metal-background-vector" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\free-metal-background-vector.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36003226_1686999834717383_2784874146394275840_n3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36003226_1686999834717383_2784874146394275840_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36064484_1686999758050724_8339389160846524416_n1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36064484_1686999758050724_8339389160846524416_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36087718_1687797867970913_132882345358262272_n2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36087718_1687797867970913_132882345358262272_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="metal_texture___34_by_agf81-d41dqkw1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\metal_texture___34_by_agf81-d41dqkw.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7757de3156730001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\7757de315673000.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\download.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="35026332_1686999778050722_8664059886373437440_n3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\35026332_1686999778050722_8664059886373437440_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blue-smoke-abstract-background-color-ink-paint-drop-water-splash-wave-cloud-90501989" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\blue-smoke-abstract-background-color-ink-paint-drop-water-splash-wave-cloud-90501989.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="white_metal4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\white_metal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36189237_796477520740704_8987403273732358144_n1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36189237_796477520740704_8987403273732358144_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36064721_794605027594620_7067306876693643264_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\36064721_794605027594620_7067306876693643264_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Izan2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pics\Izan2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

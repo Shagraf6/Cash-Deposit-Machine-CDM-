@@ -1,0 +1,429 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C19B67D4-3C2A-497B-9839-EBE5889EFE47}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>cdm2</RootNamespace>
+    <AssemblyName>cdm2</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="depform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="depform.Designer.cs">
+      <DependentUpon>depform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="deposit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="deposit.Designer.cs">
+      <DependentUpon>deposit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="enquiry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="enquiry.Designer.cs">
+      <DependentUpon>enquiry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="load.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="load.Designer.cs">
+      <DependentUpon>load.cs</DependentUpon>
+    </Compile>
+    <Compile Include="main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main.Designer.cs">
+      <DependentUpon>main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="rec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rec.Designer.cs">
+      <DependentUpon>rec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reciept.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reciept.Designer.cs">
+      <DependentUpon>Reciept.cs</DependentUpon>
+    </Compile>
+    <Compile Include="summary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="summary.Designer.cs">
+      <DependentUpon>summary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tfrecieptcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tfrecieptcs.Designer.cs">
+      <DependentUpon>tfrecieptcs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="transfer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="transfer.Designer.cs">
+      <DependentUpon>transfer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="withdraw.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="withdraw.Designer.cs">
+      <DependentUpon>withdraw.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="depform.resx">
+      <DependentUpon>depform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deposit.resx">
+      <DependentUpon>deposit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="enquiry.resx">
+      <DependentUpon>enquiry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="load.resx">
+      <DependentUpon>load.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main.resx">
+      <DependentUpon>main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="rec.resx">
+      <DependentUpon>rec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reciept.resx">
+      <DependentUpon>Reciept.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="summary.resx">
+      <DependentUpon>summary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tfrecieptcs.resx">
+      <DependentUpon>tfrecieptcs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="transfer.resx">
+      <DependentUpon>transfer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="withdraw.resx">
+      <DependentUpon>withdraw.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\36229586_1686879298062770_4633816662053748736_n %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\images %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\free-metal-texture-vector.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\misc_texture__4_by_agf81-d33ww3c.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\metal_texture___34_by_agf81-d41dqkw %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\metal_texture___34_by_agf81-d41dqkw.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\rust_scratches_0012_01_preview.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\white_metal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\white-metal-250x250.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\8165e75c97c6bfe3f969bc7a57f79125.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\35026332_1686999778050722_8664059886373437440_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\35121256_1687000018050698_6574056679049003008_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\35164822_1687000111384022_2470987151739715584_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\35416393_1687000138050686_2721252022744514560_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\36003219_1686999741384059_5862881885209755648_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\36003226_1686999834717383_2784874146394275840_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\36025517_1687000178050682_3626356482762604544_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\36027521_1687000081384025_5784255855952134144_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\36063425_1686999694717397_526736683262017536_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\36064484_1686999758050724_8339389160846524416_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\36064540_1686999878050712_6520389091295494144_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\36064721_794605027594620_7067306876693643264_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\36087944_1687000051384028_3662929074180849664_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\36088019_1686999978050702_889914981758271488_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\36189138_1686999668050733_5975785996917145600_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\36200053_1686999924717374_513910991793160192_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\images %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\36087351_1687763004641066_4554229801367371776_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\36137569_1687752641308769_1577244331918491648_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\36177047_1687752631308770_5150547458790522880_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\36087718_1687797867970913_132882345358262272_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\blurred-background-p1-2_blue.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\html-page-background-color-web-colors-inside-at-menmadeho-me.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\7757de315673000.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\blue-smoke-abstract-background-color-ink-paint-drop-water-splash-wave-cloud-90501989.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\images %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\abstract-dark-animated-background-grey-flowing-wavy-stripes-on-black-video-graphic-design-hd-1920x1080_em7h70z8g__S0007.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\free-metal-background-vector.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\images %284%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\modern-black-metal-texture-background-vector-18373924.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\black-and-red-metal-background-vector-17310300 %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\black-and-red-metal-background-vector-17310300.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\images %285%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\images %286%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\images %287%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\36177345_796472960741160_1364593633440825344_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\36189237_796477520740704_8987403273732358144_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\36266046_796487154073074_1475542791999193088_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\36223470_796493657405757_1145820051060817920_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\36269282_796493310739125_7390231685129830400_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\36177379_796590667396056_247719901018456064_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\36189131_796590597396063_4327923658098999296_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\36199834_796590600729396_7652701753678233600_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\36223248_796590684062721_2969299625472688128_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\36231883_796471860741270_8231957211136393216_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\36261480_796590617396061_8798417149270949888_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\36283426_796590714062718_3838100230176243712_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\36297788_796590647396058_2062888627813220352_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\36297890_796590640729392_9087424485006508032_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\36302987_796590614062728_6967564284242952192_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\36088045_796590690729387_3327499395447914496_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\36033390_796590720729384_3551712279030398976_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\36177072_796590674062722_2967844778315612160_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\36347766_799563267098796_6289282806677766144_n %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\36318538_799582313763558_1961056778586161152_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\36261019_796743010714155_136945410190082048_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\36356317_799580610430395_1194819803932524544_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\smart-cash-deposit-ppt-1-638.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\36302999_799614627093660_2684533904949379072_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\36316742_799614620426994_7403890346851041280_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\36380495_799615197093603_4543805323034492928_n %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\36420377_799706707084452_1888839459009462272_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\500_F_110088665_cB8VEoZtogVDH4NWdVJg6VEEiQ85poaH.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\hqdefault.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\lam-the-atm-anz-nhu-the-nao-mat-bao-lau-0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\HDHD PIcture by izaan ahmed exclusive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pics\Izan2.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
